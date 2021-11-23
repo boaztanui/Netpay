@@ -19,7 +19,7 @@ int main()
         printf("Your Net Pay is %.2f", netPay);
     }
     else if (sales <= 20000) {
-        // ((basicPay*8)/100) is where we do the commission
+        // ((sales*8)/100) is where we do the commission
         netPay = basicPay + ((sales * 8) / 100);
         printf("Your Net Pay is %.2f", netPay);
 
